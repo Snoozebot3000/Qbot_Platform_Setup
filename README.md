@@ -111,6 +111,14 @@ sdkmanager
 
 ### 1.2 Install Required Host Dependencies
 
+> **Note:** Several packages below (`simg2img`, `abootimg`, `lbzip2`, `qemu-user-static`, etc.) live in the **universe** and **multiverse** repositories. Enable them before running `apt install`:
+>
+> ```bash
+> sudo add-apt-repository universe
+> sudo add-apt-repository multiverse
+> sudo apt update
+> ```
+
 ```bash
 sudo apt update
 sudo apt install -y \
