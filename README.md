@@ -167,7 +167,7 @@ cd ../..
 
 AVermedia distributes their Jetson carrier board BSPs through their support portal and/or GitHub repository.
 
-1. Visit the [AVermedia Embedded Computing resources page](https://www.avermedia.com/professional/product/d131l/overview) or contact AVermedia support to obtain the D131L BSP tarball for JetPack 6 / L4T 36.x.
+1. Visit the [AVermedia D131L product page](https://professional.avermedia.com/product-detail/D131L#download) and download the BSP tarball for JetPack 6 / L4T 36.x from the **Download** section.
    - The file may be named something like `d131l_bsp_r36.x.x.tbz2` or `avermedia_d131l_l4t36_bsp.tar.gz`. The commands in Step 3 use `avermedia_d131l_l4t36_bsp.tar.gz` as the example filename — **replace this with the actual filename you received**.
 2. Download or copy the BSP tarball into `~/jetson_flash/`.
 
@@ -319,7 +319,7 @@ Force Recovery Mode allows the host PC to communicate with the Jetson via USB an
 ### 5.1 Physical Steps (AVermedia D131L)
 
 1. Power off the board completely (remove the DC power supply).
-2. Locate the **Force Recovery** button/jumper on the D131L. Refer to the [AVermedia D131L hardware guide](https://www.avermedia.com/professional/product/d131l/overview) for exact pin/button location.
+2. Locate the **Force Recovery** button/jumper on the D131L. Refer to the [AVermedia D131L product page](https://professional.avermedia.com/product-detail/D131L#download) for exact pin/button location.
 3. While holding the **Force Recovery** button (or with the recovery jumper installed):
    - Connect the USB-C (or Micro-USB) flashing cable between the D131L and your host PC.
    - Apply DC power to the board.
@@ -548,7 +548,7 @@ cap.release()
 - [NVIDIA Jetson Linux (L4T) Archive](https://developer.nvidia.com/embedded/jetson-linux-archive)
 - [NVIDIA SDK Manager Documentation](https://docs.nvidia.com/sdk-manager/index.html)
 - [NVIDIA JetPack 6 Release Notes](https://developer.nvidia.com/embedded/jetpack-sdk-60)
-- [AVermedia D131L Product Page](https://www.avermedia.com/professional/product/d131l/overview)
+- [AVermedia D131L Product Page](https://professional.avermedia.com/product-detail/D131L#download)
 - [Omnivision OV9281 Datasheet](https://www.ovt.com/products/ov9281/)
 - [NVIDIA Jetson Camera Architecture Guide](https://docs.nvidia.com/jetson/archives/r36.3/DeveloperGuide/SD/CameraDevelopment/CameraDevGuide.html)
 - [Jetson Linux Device Tree Customization](https://docs.nvidia.com/jetson/archives/r36.3/DeveloperGuide/HR/JetsonEepromLayout.html)
